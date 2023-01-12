@@ -59,7 +59,7 @@ export default function Home() {
               newOutput = output + "\n"
               switch (input) {
                 case "$ > start":
-                  newOutput = ""
+                  newOutput += banner
                   break;
                 case "$ > help":
                   newOutput = help
