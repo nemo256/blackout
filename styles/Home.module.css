@@ -1,8 +1,21 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  padding: 6rem;
-  min-height: 100vh;
+  border: 1em solid #888;
+  border-radius: 12px;
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+}
+
+.terminal {
+  border: none;
+  outline: none;
+  color: #18ff62;
+  margin: 0;
+  padding: 10px;
+  background-color: transparent;
+  opacity: .6;
+  white-space: pre-line;
+  word-break: break-all;
 }
